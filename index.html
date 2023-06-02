@@ -280,17 +280,17 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-gallery mb-30">
+                        <div class="single-gallery mb-30 mobile-only">
                             <!-- <a href="assets/img/gallery/gallery1.png" class="img-pop-up">View Project</a> -->
                             <div class="gallery-img size-img" style="background-image: url(assets/img/gallery/gallery1.png);"></div>
                         </div>
                     </div>
-                    <div class="col-lg-8 col-md-6 col-sm-6">
+                    <div class="col-lg-8 col-md-6 col-sm-6 mobile-only">
                         <div class="single-gallery mb-30">
                             <div class="gallery-img size-img" style="background-image: url(assets/img/gallery/gallery2.png);"></div>
                         </div>
                     </div>
-                    <div class="col-lg-8 col-md-6 col-sm-6">
+                    <div class="col-lg-8 col-md-6 col-sm-6 mobile-only" >
                         <div class="single-gallery mb-30">
                             <div class="gallery-img size-img" style="background-image: url(assets/img/gallery/gallery3.png);"></div>
                         </div>
@@ -303,6 +303,14 @@
                 </div>
             </div>
         </div>
+        <style>
+            @media only screen and (min-width: 768px) {
+    .mobile-only {
+        display: none;
+    }
+}
+
+        </style>
         <!-- Gallery Area End -->
         <!--? Contact form Start -->
         <div class="contact-form-main pb-top">
